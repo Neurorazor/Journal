@@ -4,17 +4,11 @@
 }
 
 .sidebar {
-  width: 25%;
-  padding: 20px;
-  background-color: #f2f2f2;
-  text-align: justify;
+	width: 25%;
+	padding: 10px;
+	background-color: #f2f2f2;
+	order: -1; /* added to move the sidebar to the left */
 }
-
-.sidebar a {
-  display: block;
-  margin-bottom: 10px;
-}
-
 
 .content {
 	width: 75%;
