@@ -1,0 +1,5 @@
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+title: Journal
+description: My blog is where I share what I know and what I learn about a specific topic. I write about my ideas, thoughts, and experiences. Through my blog, I aim to improve my writing and communication skills and learn from feedback. It's also an opportunity for me to connect with others who are interested in the same topic and share my passion for learning.
