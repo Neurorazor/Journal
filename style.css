@@ -7,6 +7,7 @@
 	width: 25%;
 	padding: 10px;
 	background-color: #f2f2f2;
+	order: -1; /* added to move the sidebar to the left */
 }
 
 .content {
@@ -48,4 +49,3 @@ article {
     font-size: 20px;
   }
 }
-
