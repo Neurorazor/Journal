@@ -7,45 +7,52 @@
 	width: 25%;
 	padding: 10px;
 	background-color: #f2f2f2;
-	order: -1; /* added to move the sidebar to the left */
 }
 
 .content {
 	width: 75%;
 	padding: 10px;
+	background-color: #f7f7f7;
+	color: #333333;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	line-height: 1.5;
 }
 
 body {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 18px;
-  line-height: 1.5;
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 20px;
+	margin: 0;
+	background-color: #f7f7f7;
 }
 
 h1 {
-  font-size: 32px;
-  text-align: center;
+	font-size: 32px;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
 }
 
 p {
-  text-indent: 1em;
+	text-indent: 1em;
+	margin: 0;
+}
+
+a {
+	color: #333333;
 }
 
 article {
-  margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 @media (min-width: 768px) {
-  body {
-    column-count: 1;
-    column-gap: 40px;
-  }
+	body {
+		column-count: 1;
+		column-gap: 40px;
+	}
 }
 
 @media (min-width: 1024px) {
-  body {
-    font-size: 20px;
-  }
+	body {
+		font-size: 20px;
+	}
 }
